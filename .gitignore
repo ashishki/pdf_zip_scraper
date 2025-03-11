@@ -1,0 +1,10 @@
+# Exclude raw data files (downloaded PDFs and ZIP archives)
+pdf_scraper/data/raw_files/
+data/raw_files/
+
+# Exclude any database files (SQLite, etc.)
+pdf_scraper/data/*.db
+data/*.db
+
+# Exclude the virtual environment
+venv/

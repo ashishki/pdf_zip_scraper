@@ -1,5 +1,11 @@
 # PDF/ZIP Scraper
 
+> [!NOTE]
+> This repository is an unsupported historical utility and is no longer
+> maintained. The target catalog, download behavior, and dependencies may have
+> changed; review the source site's current terms and run in an isolated
+> environment if reproducing it.
+
 A Scrapy-based web scraper that downloads PDF and ZIP files from the World Bank reproducibility catalog, extracts metadata, and stores it in a SQLite database. The project is containerized with Docker for easy deployment.
 
 ## Features
